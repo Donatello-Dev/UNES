@@ -1,0 +1,110 @@
+* {margin: 0px; padding: 0px;}
+
+body{
+    width: 70%;
+    margin: 0px auto;
+    font-family: arial, sans-serif;
+}
+
+/* CABEÇALHO DO MENU DE NAVEGAÇÃO */
+
+header{
+    display: flex;
+    background-color: #efefef;
+    border-top: 10px solid #6d78a8;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+}
+
+header h1{
+    display: none;
+}
+
+header img{
+    margin: 20px;
+}
+
+ul li{
+    display: inline-flex;
+    margin: 10px;
+}
+
+li a{
+    padding: 20px 20px;
+    color: #fff;
+    background-color: #6d78a8;
+    border: 2px solid #383f5d;
+    border-radius: 10px;
+}
+
+li a:hover{
+    background-color: #383f5d;
+    outline: 2px solid #171717;
+    outline-offset: 1px;
+}
+
+/* BANNER IMAGEM */
+
+.banner img{
+    width: 100%;
+    max-width: 100%;
+}
+
+/* SEÇÃO SOBRE */
+
+.sobre{
+    background-color: #efefef;
+}
+
+h2{
+    margin: 20px 50px;
+}
+
+section p{
+    text-indent: 30px;
+    margin: 20px;
+}
+
+ol{
+    margin-left: 100px;
+}
+
+ol li{
+    margin: 10px 0px;
+}
+
+hr{
+    margin: 30px 0px;
+    height: 7px;
+    background-color: #383f5d;
+}
+
+/* SEÇÃO DE CONTATO */
+
+label{
+    font-weight: bold;
+    margin-left: 50px;
+}
+
+textarea{
+    display: flex;
+    margin: 10px 0px 5px 50px;
+}
+
+[type="button"] {
+    margin: 0px 0px 30px 50px;
+    width: 50px;
+}
+
+/* RODAPE DO SITE */
+
+footer{
+    height: 50px;
+    background-color: #6d78a8;
+    text-align: center;
+}
+
+p{
+    padding: 20px;
+}
